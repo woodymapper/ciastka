@@ -42,11 +42,11 @@
 
 
 <script>  
-
+document.getElementById("d").style.visibility = "hidden";
 function nigga(){document.cookie = "cookieAccept: true";document.getElementById("d").style.visibility = "hidden";}
 function znik(){
  
-  if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.display = "none"; document.getElementById("d").style.visibility = "visible";;}}
+  if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.visibility = "hidden"; document.getElementById("d").style.visibility = "visible";;}}
 
 
 
