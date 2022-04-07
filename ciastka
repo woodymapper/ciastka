@@ -12,7 +12,7 @@
 
 <style>
 /*
-  .nigger {
+  .nii {
 
     visibility: visible;
 
@@ -34,8 +34,8 @@
 <body onload="znik()">
     
 <div id="myImg">
-<h1 class="nigger"  >Cookie?</h1>
-<button class="nigger"  id="nigger" onclick="nigga()">yes</button>
+<h1 class="nii"  >Cookie?</h1>
+<button class="nii"  onclick="ni()">yes</button>
 </div>
 <div id="d">Cookies zaakceptowane</div>
 </body>
@@ -43,7 +43,7 @@
 
 <script>  
 document.getElementById("d").style.visibility = "hidden";
-function nigga(){document.cookie = "cookieAccept: true";document.getElementById("d").style.visibility = "hidden";}
+function ni(){document.cookie = "cookieAccept: true";document.getElementById("d").style.visibility = "hidden";}
 function znik(){
  
   if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.visibility = "hidden"; document.getElementById("d").style.visibility = "visible";;}}
