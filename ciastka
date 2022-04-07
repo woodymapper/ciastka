@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+<style>
+/*
+  .nigger {
+
+    visibility: visible;
+
+  }
+
+*/
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<body onload="znik()">
+    
+<div id="myImg">
+<h1 class="nigger"  >Cookie?</h1>
+<button class="nigger"  id="nigger" onclick="nigga()">yes</button>
+</div>
+<div id="d">Cookies zaakceptowane</div>
+</body>
+
+
+<script>  
+
+function nigga(){document.cookie = "cookieAccept: true";document.getElementById("d").style.visibility = "hidden";}
+function znik(){
+ 
+  if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.display = "none"; document.getElementById("d").style.visibility = "visible";;}}
+
+
+
+
+
+
+
+  </script>
+
+</html>
