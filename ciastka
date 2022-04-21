@@ -6,31 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-
-
-
-<style>
-/*
-  .nii {
-
-    visibility: visible;
-
-  }
-
-*/
-
-
-
-</style>
-
-
-
-
-
-
-
-
 <body onload="znik()">
     
 <div id="myImg">
@@ -43,17 +18,12 @@
 
 <script>  
 document.getElementById("d").style.visibility = "hidden";
-function ni(){document.cookie = "cookieAccept: true";document.getElementById("d").style.visibility = "hidden";}
+function ni(){document.cookie = "cookieAccept: true";
+document.getElementById("d").style.visibility = "hidden";}
 function znik(){
  
-  if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.visibility = "hidden"; document.getElementById("d").style.visibility = "visible";;}}
-
-
-
-
-
-
-
+  if(document.cookie = "cookieAccept: true"){document.getElementById("myImg").style.visibility = "hidden";
+  document.getElementById("d").style.visibility = "visible";;}}
   </script>
 
 </html>
